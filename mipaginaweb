@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #ffeef5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header{
+            background: #ff69b4;
+            color: white;
+            padding: 30px;
+        }
+
+        section{
+            padding: 40px;
+        }
+
+        button{
+            background: #ff69b4;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background: #ff1493;
+        }
+
+        footer{
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Página Web</h1>
+        <p>Página creada y publicada gratis en Internet</p>
+    </header>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Esta es mi primera página web usando HTML y CSS.</p>
+
+        <button onclick="mensaje()">Haz clic aquí</button>
+    </section>
+
+    <footer>
+        © 2026 Mi Página Web
+    </footer>
+
+    <script>
+        function mensaje(){
+            alert("¡Hola! Gracias por visitar mi página web.");
+        }
+    </script>
+
+</body>
+</html>
